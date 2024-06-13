@@ -70,8 +70,8 @@ The following can be done on either terminal
 
 | Terminal1 | Terminal 2 |
 | -------- | ------- |
-|ilab serve --model-path <new model path> ||
-| |ilab chat -m <New model name> | 
+|ilab serve --model-path new model path ||
+| |ilab chat -m New model name | 
 
 **Note:** Expect your local model to hallucinate. Remember, this is a quantized model and is less accurate. 
 
