@@ -67,7 +67,8 @@ The following can be done on either terminal
 * ilab convert (only for M series)
 **Note:** If you do convert, your old model may get repalced with the new one.
 * ls models
-| Terminal1    | Terminal 2 |
+
+| Terminal1 | Terminal 2 |
 | -------- | ------- |
 |ilab serve --model-path <new model path> ||
 | |ilab chat -m <New model name> | 
