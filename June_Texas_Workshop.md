@@ -73,7 +73,7 @@ The following can be done on either terminal
 |ilab serve --model-path <new model path> ||
 | |ilab chat -m <New model name> | 
 
-**Note: ** Expect your local model to hallucinate. Remember, this is a quantized model and is less accurate. 
+**Note:** Expect your local model to hallucinate. Remember, this is a quantized model and is less accurate. 
 Committing
 * Push yur changes 
 In your fork of the taxonomy:
