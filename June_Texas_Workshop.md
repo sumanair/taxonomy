@@ -74,7 +74,8 @@ The following can be done on either terminal
 | |ilab chat -m <New model name> | 
 
 **Note:** Expect your local model to hallucinate. Remember, this is a quantized model and is less accurate. 
-Committing
+
+### Committing
 * Push yur changes 
 In your fork of the taxonomy:
 ``` 
