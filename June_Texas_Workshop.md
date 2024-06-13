@@ -1,7 +1,7 @@
 **Note:** This is just a quick cheatsheet for the Austin/Coppell Instructlab micro-workshop. 
-*Consider [ilab](https://github.com/instructlab/instructlab/blob/main/README.md) the source of truth
+* Consider [ilab](https://github.com/instructlab/instructlab/blob/main/README.md) the source of truth
 
-#For M series Macs
+# For M series Macs
 
 ## Prep
 In terminal window - folder of choice
