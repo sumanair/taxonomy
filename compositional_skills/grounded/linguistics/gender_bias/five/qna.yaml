@@ -3,7 +3,7 @@ task_description: |
     This skill helps the writer recognize and correct gender bias in professions traditionally 
     associated with women by using more inclusive language. Data is drawn from the US Bureau of 
     Labor Statistics, 2023.
-created_by: your_github_username
+created_by: sumanair
 seed_examples:
   - context: >
       A receptionist is referred to as "she" in an office manual, even though 12.3% of receptionists 

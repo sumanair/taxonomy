@@ -1,0 +1,124 @@
+version: 3
+task_description: |
+    This skill helps the writer identify and correct assumptions in task assignments based on 
+    stereotypical views of gender, ensuring inclusivity. Data is drawn from the US Bureau of Labor 
+    Statistics, 2023.
+created_by: sumanair
+seed_examples:
+  - context: >
+      Because a person who works in a warehouse performs manual tasks, sometimes involving heavy 
+      lifting, the stereotype of a "strong man" is often used to describe such workers. However, 
+      25.3% of warehouse workers are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this stereotype about strength and manual labor create gender bias, and how can it be 
+      corrected in language?
+    answer: >
+      This stereotype assumes that only men perform physical tasks, excluding women who work in the 
+      same roles. Use inclusive language, such as "they" or "the worker," instead of gendered 
+      pronouns. For example, "The warehouse worker lifts heavy boxes."
+
+  - context: >
+      In a description of janitorial work, the term "she" is often used to describe the tasks of 
+      cleaning and organizing, based on the stereotype that women perform most cleaning tasks. 
+      However, 40.7% of janitors in the US are men, according to the US Bureau of Labor Statistics, 
+      2023.
+    question: |
+      How does this stereotype about cleaning reinforce gender bias, and how can it be corrected?
+    answer: >
+      This assumption suggests that women are primarily responsible for cleaning work. To avoid this 
+      bias, use "they" or "the cleaner" instead of gendered language. For example, "The cleaner 
+      organizes the workspace."
+
+  - context: >
+      The stereotype of men handling planning and safety tasks in construction projects persists, 
+      with phrases like "he manages safety protocols" commonly used. However, 9.7% of construction 
+      managers are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this language create bias about safety roles in construction, and how can it be made 
+      more inclusive?
+    answer: >
+      This language implies that only men manage safety, reinforcing stereotypes about gender roles 
+      in construction. Use "they" or "the construction manager" for inclusivity. For example, "The 
+      construction manager ensures safety protocols are followed."
+
+  - context: >
+      In the fitness industry, the role of personal trainers is often associated with men, and tasks 
+      such as strength training are frequently assigned to "he" in advertisements. However, 30.1% of 
+      personal trainers are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does assigning strength training to "he" reinforce stereotypes in fitness, and how can the 
+      language be revised?
+    answer: >
+      This reinforces the stereotype that only men handle strength training. To avoid this bias, use 
+      "they" or "the personal trainer." For example, "The personal trainer designs strength training 
+      programs."
+
+  - context: >
+      IT support tasks such as troubleshooting are often described with "he" due to the stereotype 
+      that men dominate technical roles. However, 27.5% of IT support specialists are women, 
+      according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this assumption about technical tasks create bias, and how can the language be 
+      corrected to be more inclusive?
+    answer: >
+      This stereotype marginalizes women in technical roles. Use "they" or "the IT support 
+      specialist" to ensure inclusivity. For example, "The IT support specialist will troubleshoot 
+      the problem."
+
+  - context: >
+      In marketing leadership, the assumption that women dominate is reflected in phrases like "she 
+      leads the campaign," even though 43.5% of marketing managers are men, according to the US 
+      Bureau of Labor Statistics, 2023.
+    question: |
+      How does this assumption about women in leadership roles create bias, and how can the language 
+      be more inclusive?
+    answer: >
+      This assumption excludes male leadership in marketing. Use "they" or alternate between 
+      pronouns to reflect the gender diversity in the field. For example, "The marketing manager 
+      leads the campaign."
+
+  - context: >
+      Customer service manager roles are often described using "she," based on the stereotype that 
+      these roles are mostly held by women. However, 25.6% of customer service managers are men, 
+      according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this stereotype create bias, and how can the language be revised to reflect gender 
+      diversity?
+    answer: >
+      Referring to customer service managers as "she" creates bias by assuming the role is 
+      predominantly female. Use "they" or "the manager" to be more inclusive. For example, "The 
+      customer service manager resolves issues."
+
+  - context: >
+      Drafters in technical fields are often referred to as "he," based on the stereotype that men 
+      dominate technical design roles. However, 16.7% of drafters are women, according to the US 
+      Bureau of Labor Statistics, 2023.
+    question: |
+      How does referring to drafters as "he" create bias in technical roles, and how can this 
+      language be corrected?
+    answer: >
+      This stereotype excludes women who work in technical drafting roles. Use "they" or "the 
+      drafter" instead. For example, "The drafter prepares the technical designs."
+
+  - context: >
+      In legal settings, paralegals are often referred to as "she," based on the stereotype that the 
+      role is primarily female. However, 15.8% of paralegals are men, according to the US Bureau of 
+      Labor Statistics, 2023.
+    question: |
+      How does referring to paralegals as "she" reinforce stereotypes, and how can the language be 
+      more inclusive?
+    answer: >
+      This assumption reinforces the idea that paralegals are mostly women. Use "they" or "the 
+      paralegal" for inclusivity. For example, "The paralegal assists the attorney with case 
+      preparation."
+
+  - context: >
+      Yoga instructors are commonly described as "she," due to the stereotype that yoga is a 
+      female-dominated profession. However, 26.7% of yoga instructors are men, according to the US 
+      Bureau of Labor Statistics, 2023.
+    question: |
+      How does this stereotype about yoga instructors create bias, and how can the language be 
+      revised to reflect the profession's gender diversity?
+    answer: >
+      This stereotype marginalizes men who teach yoga. Use gender-neutral language or alternate 
+      between pronouns. For example, "The yoga instructor will guide the class through poses."

@@ -3,7 +3,7 @@ task_description: |
     This skill helps the writer think critically about the effects of language in reinforcing or 
     challenging gender and race stereotypes in professional contexts. Data is drawn from the US 
     Bureau of Labor Statistics, 2023.
-created_by: your_github_username
+created_by: sumanair
 seed_examples:
   - context: >
       In a report, an architect is described as "he," even though 27.1% of architects in the United 

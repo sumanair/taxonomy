@@ -2,7 +2,7 @@ version: 3
 task_description: |
     This skill helps the writer ensure the use of inclusive gender and race terminology in writing 
     about various professions, using data from the US Bureau of Labor Statistics, 2023.
-created_by: your_github_username
+created_by: sumanair
 seed_examples:
   - context: >
       In the United States, 85.7% of registered nurses are women, while 14.3% are men, according to 

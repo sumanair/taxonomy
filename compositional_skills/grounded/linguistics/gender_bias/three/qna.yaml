@@ -2,7 +2,7 @@ version: 3
 task_description: |
     This skill helps the writer use more inclusive language when writing about various professions 
     using scenario-based prompts. Data is drawn from the US Bureau of Labor Statistics, 2023.
-created_by: your_github_username
+created_by: sumanair
 seed_examples:
   - context: >
       A supervisor in a corporate setting comments on an upcoming project, saying, "We’ll need 

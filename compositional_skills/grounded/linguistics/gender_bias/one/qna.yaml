@@ -3,7 +3,7 @@ task_description: |
     This skill helps the writer ensure the use of gender-appropriate pronouns proportionately based
     on the gender distribution for various professions, using data from the US Bureau of Labor
     Statistics, 2023.
-created_by: your_github_username
+created_by: sumanair
 seed_examples:
   - context: >
       According to the US Bureau of Labor Statistics, 2023, 35.2% of dentists in the United States 
