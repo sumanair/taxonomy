@@ -1,0 +1,119 @@
+version: 3
+task_description: |
+    This skill helps the writer think critically about the effects of language in reinforcing or 
+    challenging gender and race stereotypes in professional contexts. Data is drawn from the US 
+    Bureau of Labor Statistics, 2023.
+created_by: your_github_username
+seed_examples:
+  - context: >
+      In a report, an architect is described as "he," even though 27.1% of architects in the United 
+      States are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How might using "he" to describe an architect unintentionally reinforce stereotypes, and how 
+      can you revise this to be more inclusive?
+    answer: >
+      Using "he" could reinforce the stereotype that architects are predominantly men, even though 
+      a significant percentage are women. To avoid this, you can use "they" or alternate between 
+      "he" and "she" to better represent the gender distribution. For example, "The architect 
+      created the design," leaving out gender entirely.
+
+  - context: >
+      In a job description, the phrase "strong, assertive salesman" is used. However, 46.8% of sales 
+      managers in the US are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does the use of "salesman" and "assertive" affect the perception of gender in this role, 
+      and how can it be revised to be more inclusive?
+    answer: >
+      "Salesman" and "assertive" may imply that men are more suited to the role and reinforce 
+      masculine stereotypes about leadership. To be inclusive, you could use "salesperson" and 
+      "confident" or "capable." For example, "We are looking for a confident sales professional."
+
+  - context: >
+      A finance report refers to a manager as "he" throughout, although 43.7% of financial managers 
+      in the United States are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How might this language impact readers' perceptions of financial managers, and how can it be 
+      revised to be more inclusive?
+    answer: >
+      Using "he" exclusively reinforces the assumption that financial managers are mostly men. 
+      Instead, use "they" or alternate pronouns to reflect the diversity of the field. For example, 
+      "The financial manager created the budget plan."
+
+  - context: >
+      An advertisement for a graphic design role mentions that the company is looking for "a 
+      creative guy." However, 46.8% of graphic designers are women, according to the US Bureau of 
+      Labor Statistics, 2023.
+    question: |
+      How does the use of "guy" in this context affect gender assumptions, and how can it be 
+      rephrased to be more inclusive?
+    answer: >
+      "Guy" implies that the position is more suited to men, which may discourage women from 
+      applying. To be more inclusive, replace "guy" with "professional" or "individual." For 
+      example, "We are looking for a creative professional."
+
+  - context: >
+      A teacher is referred to as "she" in a curriculum guide, though 23.2% of teachers in the US 
+      are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How might using "she" exclusively to refer to teachers create assumptions, and how can the 
+      language be made more inclusive?
+    answer: >
+      Using "she" may imply that teaching is a predominantly female profession, excluding the 
+      significant number of male teachers. Use "they" or alternate pronouns to avoid reinforcing 
+      this stereotype. For example, "The teacher will lead the class through the lesson."
+
+  - context: >
+      A veterinarian is referred to as "he" in a pet care article, though 63.3% of veterinarians in 
+      the US are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does using "he" for veterinarians affect gender assumptions, and how can the language be 
+      revised to be more inclusive?
+    answer: >
+      Using "he" in this context suggests that veterinarians are mostly men, which contradicts the 
+      actual gender distribution. You could use "they" or alternate pronouns to better reflect the 
+      field. For example, "The veterinarian performed the surgery."
+
+  - context: >
+      A construction worker is described as "he" in a safety training manual, even though 9.7% of 
+      construction workers are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How might using "he" in this context reinforce stereotypes about construction workers, and how 
+      can you revise this language to be more inclusive?
+    answer: >
+      Referring to construction workers as "he" reinforces the stereotype that only men work in 
+      construction. Use "they" or refer to "the worker" to avoid gender assumptions. For example, 
+      "The worker followed safety protocols."
+
+  - context: >
+      In a leadership workshop, participants are encouraged to "act like a strong man in business 
+      situations." In reality, 37.3% of business leaders in the US are women, according to the US 
+      Bureau of Labor Statistics, 2023.
+    question: |
+      How can this language be rephrased to avoid reinforcing masculine stereotypes in business 
+      leadership?
+    answer: >
+      Replace "like a strong man" with more inclusive language that encourages all genders to excel 
+      in leadership. For example, "Act with confidence and decisiveness in business situations."
+
+  - context: >
+      In a university setting, professors are repeatedly referred to as "he," although 46.9% of 
+      professors in the US are women, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does using "he" exclusively when referring to professors impact gender perceptions, and 
+      how can this be revised to be more inclusive?
+    answer: >
+      Using "he" reinforces the idea that most professors are men, which is not accurate. Use "they" 
+      or alternate pronouns to better reflect the gender balance. For example, "The professor will 
+      lead the lecture."
+
+  - context: >
+      A psychologist is referred to as "she" in a mental health brochure, even though 32.6% of 
+      psychologists in the United States are men, according to the US Bureau of Labor Statistics, 
+      2023.
+    question: |
+      How might using "she" exclusively to refer to psychologists create gender assumptions, and how 
+      can this be rephrased to be more inclusive?
+    answer: >
+      Using "she" may imply that the profession is predominantly female. Instead, use "they" or 
+      alternate between "he" and "she" to reflect the gender distribution. For example, "The 
+      psychologist provided therapy."

@@ -1,0 +1,103 @@
+version: 3
+task_description: |
+    This skill helps the writer recognize and correct gender bias in professions traditionally 
+    associated with women by using more inclusive language. Data is drawn from the US Bureau of 
+    Labor Statistics, 2023.
+created_by: your_github_username
+seed_examples:
+  - context: >
+      A receptionist is referred to as "she" in an office manual, even though 12.3% of receptionists 
+      in the US are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does using "she" exclusively when referring to a receptionist create gender bias, and how 
+      can this be corrected?
+    answer: >
+      Referring to all receptionists as "she" reinforces the stereotype that the role is exclusively 
+      female. Use "they" or alternate pronouns. For example, "The receptionist welcomed the guests."
+
+  - context: >
+      In a beauty salon ad, all hairstylists are referred to as "she," though 15.9% of hairstylists 
+      are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How might using "she" exclusively for hairstylists reinforce stereotypes, and how can the 
+      language be revised to be more inclusive?
+    answer: >
+      Using "she" assumes that hairstyling is a female-only profession. Use "they" or alternate 
+      pronouns. For example, "The hairstylist created a unique look for the client."
+
+  - context: >
+      A massage therapist is referred to as "she" in a wellness center brochure, despite 21.7% of 
+      massage therapists being men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this language reinforce gender bias, and how can it be made more inclusive for massage 
+      therapists?
+    answer: >
+      Referring to massage therapists as "she" reinforces gender bias. Use "they" or alternate 
+      pronouns. For example, "The massage therapist helped the client relax."
+
+  - context: >
+      In a daycare manual, all references to childcare workers use "her," though 5.7% of childcare 
+      workers are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How might this language create gender bias, and how can it be adjusted to be more inclusive?
+    answer: >
+      Using "her" exclusively implies that childcare is solely a woman’s job. To correct this, use 
+      "they" or alternate between "he" and "she." For example, "The childcare worker planned fun 
+      activities for the children."
+
+  - context: >
+      In a nursing assistant training manual, nursing assistants are referred to as "she" throughout, 
+      though 11.5% are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How can this language be made more inclusive for nursing assistants?
+    answer: >
+      Referring to nursing assistants exclusively as "she" reinforces stereotypes. Use "they" or 
+      alternate pronouns. For example, "The nursing assistant cared for the patient."
+
+  - context: >
+      A dental assistant is referred to as "she" in a dental clinic’s job description, despite 7.9% 
+      of dental assistants being men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How can this job description be revised to avoid gender bias?
+    answer: >
+      Use gender-neutral language or alternate pronouns. For example, "The dental assistant prepared 
+      the instruments for the procedure."
+
+  - context: >
+      A medical transcriptionist is referred to as "she" in a healthcare report, though 12.1% are 
+      men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How can the language be revised to avoid reinforcing gender stereotypes about medical 
+      transcriptionists?
+    answer: >
+      Use "they" or alternate between "he" and "she" to reflect the diversity in the profession. For 
+      example, "The transcriptionist documented the patient’s medical history."
+
+  - context: >
+      A customer service representative is referred to as "she" in a retail handbook, even though 
+      25.6% are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this language contribute to gender bias, and how can it be revised to be more 
+      inclusive?
+    answer: >
+      Use "they" or alternate between "he" and "she" to reflect diversity. For example, "The 
+      customer service representative resolved the issue."
+
+  - context: >
+      In a personal assistant job posting, the term "she" is used, even though 9.6% of personal 
+      assistants in the US are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How can this job posting be improved to avoid gender bias?
+    answer: >
+      Use "they" or alternate pronouns to avoid reinforcing gender stereotypes. For example, "The 
+      personal assistant managed the executive’s schedule."
+
+  - context: >
+      In a healthcare pamphlet, speech-language pathologists are referred to as "she," although 4.7% 
+      are men, according to the US Bureau of Labor Statistics, 2023.
+    question: |
+      How does this language reinforce stereotypes about speech-language pathologists, and how can it 
+      be revised?
+    answer: >
+      Use "they" or alternate between "he" and "she" to avoid reinforcing gender bias. For example, 
+      "The speech-language pathologist worked with the child to improve their communication skills."

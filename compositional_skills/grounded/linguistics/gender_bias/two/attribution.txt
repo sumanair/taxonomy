@@ -1,0 +1,4 @@
+Title of work: US Gender distribution in occupations
+Link to work: https://www.bls.gov/cps/cpsaat11.htm
+License of the work: CC-BY-SA-4.0
+Creator names: US Bureau of Labor Statistics # can we use this? Confirm

@@ -1,0 +1,49 @@
+version: 3
+task_description: |
+    This skill helps the writer ensure the use of inclusive gender and race terminology in writing 
+    about various professions, using data from the US Bureau of Labor Statistics, 2023.
+created_by: your_github_username
+seed_examples:
+  - context: >
+      In the United States, 85.7% of registered nurses are women, while 14.3% are men, according to 
+      the US Bureau of Labor Statistics, 2023. Nurses play a critical role in patient care and 
+      recovery.
+    question: How would you revise a sentence about a registered nurse to be more inclusive in terms 
+      of gender?
+    answer: >
+      To reflect the gender distribution, alternate between "she" and "he," using "she" 
+      approximately 86% of the time. For example, "She cared for the patient throughout the recovery 
+      process," or "He monitored the patient's vital signs."
+
+  - context: >
+      According to the US Bureau of Labor Statistics, 91.3% of elementary school teachers are women, 
+      while 8.7% are men. Teachers shape the future of children through education.
+    question: |
+      How would you write about an elementary school teacher in a more inclusive way, considering 
+      gender representation?
+    answer: >
+      Given the high percentage of women in the profession, use "she" around 91% of the time, and 
+      "he" for the remaining 9%. For example, "She guided the students through the lesson," or "He 
+      helped the students with their homework."
+
+  - context: >
+      In January 2024, the US Bureau of Labor Statistics reported that 32.9% of software developers 
+      are women, while 67.1% are men. Software developers create and maintain applications used in 
+      various industries.
+    question: |
+      How would you revise a sentence about a software developer to ensure it reflects inclusive 
+      language for both gender and race?
+    answer: >
+      Alternate between "she" and "he," using "he" about 67% of the time and "she" about 33%. For 
+      example, "She developed the new software feature," or "He worked on the application’s 
+      backend."
+
+  - context: >
+      33.8% of lawyers in the United States are women, while 66.2% are men. Additionally, 5.5% of 
+      lawyers are Black or African American, 5.3% are Asian, and 4.9% are Hispanic or Latino.
+    question: |
+      How can you adjust the language used to describe a lawyer to ensure it is inclusive of gender 
+      and race?
+    answer: >
+      Use "he" about 66% of the time and "she" about 34%, while ensuring race is only mentioned if 
+      relevant. For example, "

@@ -1,0 +1,96 @@
+version: 3
+task_description: |
+    This skill helps the writer use more inclusive language when writing about various professions 
+    using scenario-based prompts. Data is drawn from the US Bureau of Labor Statistics, 2023.
+created_by: your_github_username
+seed_examples:
+  - context: >
+      A supervisor in a corporate setting comments on an upcoming project, saying, "We’ll need 
+      someone who can lead this project like a man." In the United States, 43.4% of project managers 
+      are women, and 56.6% are men, according to the US Bureau of Labor Statistics, 2023.
+    question: How can you improve this language to be more inclusive, considering the gender 
+      distribution of project managers?
+    answer: >
+      Replace "like a man" with gender-neutral language. For example, "We’ll need someone who can 
+      lead this project with confidence and expertise."
+
+  - context: >
+      A team lead refers to an engineer as "he" in a meeting, saying, "He’ll be great at solving 
+      this technical problem." However, 15.7% of engineers in the United States are women, and 84.3% 
+      are men, according to the US Bureau of Labor Statistics, 2023.
+    question: How can you adjust this language to better reflect gender inclusivity?
+    answer: >
+      Replace "he" with "they" or use gender-neutral language. For example, "They’ll be great at 
+      solving this technical problem."
+
+  - context: >
+      A sales manager refers to a colleague as "one of the best salesmen in the industry," even 
+      though 46.8% of sales managers in the United States are women, according to the US Bureau of 
+      Labor Statistics, 2023.
+    question: How can you revise this sentence to be more gender-inclusive?
+    answer: >
+      Use gender-neutral terms like "salesperson" instead of "salesman." For example, "one of the 
+      best salespeople in the industry."
+
+  - context: >
+      In a hospital setting, a doctor refers to nurses as "girls" in a conversation with colleagues, 
+      despite the fact that 85.7% of nurses are women and 14.3% are men, according to the US Bureau 
+      of Labor Statistics, 2023.
+    question: How can you adjust this language to make it more professional and inclusive?
+    answer: >
+      Use the term "nurses" rather than "girls." For example, "The nurses did a great job handling 
+      the situation."
+
+  - context: >
+      A job description for a marketing analyst position includes the line, "We’re looking for 
+      someone who’s aggressive and gets the job done like a man." In the United States, 56.5% of 
+      marketing analysts are women, and 43.5% are men, according to the US Bureau of Labor 
+      Statistics, 2023.
+    question: How can this job description be improved to use more inclusive language?
+    answer: >
+      Replace gendered language with qualities applicable to anyone. For example, "We’re looking 
+      for someone who’s assertive and driven to get the job done."
+
+  - context: >
+      During a presentation, a manager refers to construction workers as "the guys on the ground," 
+      despite the fact that 9.3% of construction workers are women, according to the US Bureau of 
+      Labor Statistics, 2023.
+    question: How can you improve this statement to better reflect gender inclusivity?
+    answer: >
+      Use "workers" instead of "guys." For example, "the workers on the ground" or "the team on the 
+      ground."
+
+  - context: >
+      A reference is made to "the IT guy" when discussing a technical issue in the workplace. 
+      However, 27.5% of IT support specialists are women, according to the US Bureau of Labor 
+      Statistics, 2023.
+    question: How can you revise this language to be more gender-neutral?
+    answer: >
+      Replace "IT guy" with "IT professional" or "IT specialist." For example, "I’ll check with the 
+      IT professional."
+
+  - context: >
+      In a company-wide memo, employees are referred to as "gentlemen" when discussing upcoming 
+      changes to the organization. However, 48.6% of business professionals in the US workforce are 
+      women, according to the US Bureau of Labor Statistics, 2023.
+    question: How can you make this language more inclusive?
+    answer: >
+      Replace "gentlemen" with "everyone" or "team." For example, "We’d like to inform everyone of 
+      the upcoming changes."
+
+  - context: >
+      A healthcare manager refers to physicians as "he" in a report. According to the US Bureau of 
+      Labor Statistics, 2023, 36.6% of physicians are women.
+    question: How can you revise this sentence to make it more inclusive?
+    answer: >
+      Use "they" or alternate between "he" and "she" to reflect the gender distribution of 
+      physicians. For example, "They will handle patient care."
+
+  - context: >
+      A finance manager describes a colleague as "he" when discussing leadership qualities. In 
+      reality, 43.7% of financial managers in the US are women, according to the US Bureau of Labor 
+      Statistics, 2023.
+    question: How can you modify this language to reflect gender inclusivity in leadership roles?
+    answer: >
+      Use "they" or alternate between "he" and "she." For example, "They demonstrated excellent 
+      leadership in managing the team."

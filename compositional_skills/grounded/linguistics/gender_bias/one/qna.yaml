@@ -1,0 +1,113 @@
+version: 3
+task_description: |
+    This skill helps the writer ensure the use of gender-appropriate pronouns proportionately based
+    on the gender distribution for various professions, using data from the US Bureau of Labor
+    Statistics, 2023.
+created_by: your_github_username
+seed_examples:
+  - context: >
+      According to the US Bureau of Labor Statistics, 2023, 35.2% of dentists in the United States 
+      are women, while 64.8% are men. Dentists diagnose and treat oral diseases, perform surgeries, 
+      and improve dental hygiene.
+    question: |
+      If you are referring to a dentist in a sentence in the United States, how can you ensure the 
+      gender ratio is appropriately represented in your pronoun choice?
+    answer: >
+      Use "he" about 65% of the time and "she" about 35% of the time. For example, "He performed a 
+      root canal procedure."
+
+  - context: >
+      In January 2024, the US Bureau of Labor Statistics published data showing that 76.8% of 
+      teachers in the US are women and 23.2% are men. Teachers play an essential role in shaping 
+      intellectual development across various subjects.
+    question: |
+      If you are writing about a teacher in the United States, how can you ensure the gender ratio 
+      is accurately represented in your pronoun usage?
+    answer: >
+      Use "she" about 77% of the time and "he" about 23% of the time. For example, "She organized 
+      a classroom activity."
+
+  - context: >
+      In the United States, only 2.3% of electricians are women, while 97.7% are men, according to 
+      the US Bureau of Labor Statistics, 2023. Electricians install, maintain, and repair electrical 
+      systems.
+    question: |
+      How can you ensure the gender ratio is appropriately represented when referring to an 
+      electrician in a sentence?
+    answer: >
+      Use "he" approximately 98% of the time and "she" about 2% of the time. For example, "He fixed 
+      the wiring."
+
+  - context: >
+      In January 2024, the US Bureau of Labor Statistics reported that 64.5% of pharmacists are 
+      women and 35.5% are men. Pharmacists dispense medications and advise on drug use to ensure 
+      patient safety.
+    question: |
+      How likely is it that a pharmacist in the US is male, and how do you ensure this is reflected 
+      in the pronouns used?
+    answer: >
+      Use "she" about 65% of the time and "he" about 35% of the time. For example, "She dispensed 
+      the medication."
+
+  - context: >
+      The gender distribution of veterinarians in the US is 63.3% women and 36.7% men, according to 
+      the US Bureau of Labor Statistics, 2023. Veterinarians provide care for animals, perform 
+      surgeries, and diagnose health problems.
+    question: |
+      If writing about a veterinarian, how can you ensure gender representation is appropriately 
+      handled in your pronoun usage?
+    answer: >
+      Use "she" about 63% of the time and "he" about 37% of the time. For example, "She treated the 
+      animal."
+
+  - context: >
+      Civil engineering remains male-dominated in the United States, with 16.5% women and 83.5% men, 
+      as reported by the US Bureau of Labor Statistics, 2023. Civil engineers design and oversee 
+      construction projects like roads and bridges.
+    question: |
+      If referring to a civil engineer, how can you ensure the gender ratio is appropriately 
+      reflected in your sentence?
+    answer: >
+      Use "he" about 83% of the time and "she" about 17% of the time. For example, "He managed the 
+      construction project."
+
+  - context: >
+      In January 2024, the US Bureau of Labor Statistics reported that 39.4% of lawyers are women, 
+      and 60.6% are men. Lawyers represent clients in legal matters and advocate on their behalf.
+    question: |
+      How can you ensure gender balance when writing about a lawyer in a US-based context?
+    answer: >
+      Use "he" about 61% of the time and "she" about 39% of the time. For example, "He defended the 
+      client in court."
+
+  - context: >
+      The US Bureau of Labor Statistics reported in January 2024 that 27.1% of architects in the US 
+      are women, while 72.9% are men. Architects design buildings and structures that shape urban 
+      landscapes.
+    question: |
+      If you are referring to an architect, how can you reflect the gender ratio appropriately in 
+      your pronoun usage?
+    answer: >
+      Use "he" about 73% of the time and "she" about 27% of the time. For example, "He designed the 
+      new city hall."
+
+  - context: >
+      According to the US Bureau of Labor Statistics, 61.7% of accountants in the United States are 
+      women, and 38.3% are men. Accountants manage financial records and provide tax services to 
+      clients.
+    question: |
+      When writing about an accountant, how can you ensure the gender ratio is reflected in your 
+      pronoun usage?
+    answer: >
+      Use "she" about 62% of the time and "he" about 38% of the time. For example, "She managed the 
+      company’s tax returns."
+
+  - context: >
+      Graphic designers in the US workforce are 46.8% women and 53.2% men, according to the US 
+      Bureau of Labor Statistics, 2023. Graphic designers create visual content for branding, 
+      advertising, and websites.
+    question: |
+      How can you ensure gender-appropriate pronouns are used when referring to a graphic designer?
+    answer: >
+      Use "he" about 53% of the time and "she" about 47% of the time. For example, "He designed the 
+      company's new logo."
